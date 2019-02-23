@@ -1,0 +1,15 @@
+.footer-text {
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.footer-text__about, .footer-text__copy {
+  color: #000000;
+  font-family: $font-text;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer-text__copy {
+  padding-top: 50px;
+}

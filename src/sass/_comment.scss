@@ -1,0 +1,80 @@
+.comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-ava {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  background-color: #333;
+  font-size: 20px;
+  line-height: 65px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.fa-user-alt {
+  color: #fff;
+}
+
+.comment-name {
+  color: #333;
+  font-family: $font-roboto;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 30px;
+}
+
+.comments-date {
+  color: #7f8c8c;
+  font-family: $font-roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.comment-first {
+  background-color: #e6e6e6;;
+}
+
+.reply {
+  color: #333333;
+  font-family: $font-roboto;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.comm-info {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.comm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fa-reply {
+  margin-right: 10px;
+}
+
+.one-comm {
+  margin-bottom: 20px;
+}
+
+.answer-comm {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-first__answer {
+  background-color: #f8f8f8;
+}

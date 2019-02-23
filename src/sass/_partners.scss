@@ -1,0 +1,13 @@
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 95px;
+}
+
+.partners-item {
+  &:hover {
+    -webkit-filter: opacity(30%);
+  }
+}

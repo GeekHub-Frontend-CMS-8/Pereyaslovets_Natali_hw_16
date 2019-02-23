@@ -1,0 +1,104 @@
+.contact-form__fields--user, .contact-form__fields--mail, .contact-form__fields--telephone, .contact-form__fields--website {
+  color: #949494;
+  font-family: $font-roboto;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 1.4px;
+  background-color: transparent;
+  padding: 15px 0 15px 20px;
+  border: 1px solid #000;
+  width: 270px; }
+
+.contact-form__textarea {
+  height: 185px;
+  width: 270px;
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 20px 25px;
+  color: #949494;
+  font-family: $font-roboto;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 1.4px;
+}
+
+@media screen and (min-width: 500px) {
+  .contact-form__fields--user, .contact-form__fields--mail, .contact-form__fields--telephone, .contact-form__fields--website, .contact-form__textarea {
+    width: 330px; } }
+
+
+
+@media screen and (min-width: 1200px) {
+  .contact-form__textarea {
+    width: 475px;
+  }
+}
+
+.container-form__form {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .container-form__form {
+    padding-bottom: 30px;
+  }
+}
+
+.contact-form__fields {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-form__forms {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .contact-form__fields {
+    justify-content: space-between; }
+  .contact-form__forms {
+    text-align: left;
+  }
+}
+
+.contact-form__item {
+  margin-bottom: 20px; }
+
+.contact-form__btn--send {
+  color: #fff;
+  font-family: $font-roboto;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+  width: 170px;
+  background-color: #000;
+  padding: 10px 0;
+  border: 1px solid #000;
+  margin-right: 40px;
+}
+.contact-form__btn--send:hover {
+  -webkit-filter: opacity(30%);
+}
+
+.text-after {
+  padding-bottom: 130px;
+}
+
+.contact-form__message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.leave {
+  color: #333333;
+  font-family: $font-roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20.8px;
+  padding-bottom: 20px;
+}
